@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GiftSeason | Handmade Gifts Concept Store</title>
+        <title>GiftSeason | Концептуален магазин за ръчно изработени подаръци</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,11 +18,11 @@
         </div>
         <nav>
             <ul id="MenuItems">
-                <li><a href="aboutpage.html" target="_blank">About</a></li>
-                <li><a href="#jewellery">Jewellery</a></li>
-                <li><a href="#interiordecoritems">Interior Decor Items</a></li>
-                <li><a href="#toyssocks">Toys & Socks</a></li>                
-                <li><a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank">Contact</a></li>                
+                <li><a href="#aboutgiftseason">За GiftSeason</a></li>
+                <li><a href="#jewellery">Бижута</a></li>
+                <li><a href="#interiordecoritems">Предмети за интериорен декор</a></li>
+                <li><a href="#toyssocks">Плетени играчки и чорапи</a></li>                
+                <li><a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank">Контакти</a></li>                
             </ul>
         </nav>
         <img src="images/menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
@@ -31,10 +31,10 @@
 
    <div class="row">
       <div class="col-2"> 
-          <h1>Express Your Feelings<br>With Atmospheric Gifts!</h1>
-          <p>Original handmade toys, jewellery, and interior decor items. Select original mood lifters to celebrate unique individuality of your loved ones with handmade presents! 
+          <h1>Изразете чувствата си <br>с атмосферни подаръци!</h1>
+          <p>Оригинални ръчно изработени играчки, бижута и предмети за интериорен декор от Тaтяна Близнакова, занаятчия и собственик на концептуалния магазин за ръчно изработени подаръци GiftSeason - "Сезонът на подаръците". Изберете интересен подарък, за да отразите уникалната индивидуалност на вашите близки с ръчно изработени творби! 
         </p>
-        <a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank" class="btn">Explore Now &#8594;</a>
+        <a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank" class="btn">Разгледайте сега &#8594;</a>
 
      </div>
    <div class="col-2">
@@ -46,21 +46,21 @@
 <!------ featured categories -------->
 <div class="categories">
     <div class="small-container">    
-       <h2 class="title">Featured Categories</h2>
+       <h2 class="title">Представени категории</h2>
        <div class="row">
         <div class="col-3">
-            <img src="images/jewellery.png" width="250px">
-            <h4>Jewellery</h4>
+            <a href="#jewellery" target="_blank"><img src="images/jewellery.png" width="250px"></a>
+            <h4>Бижута</h4>
         </div>
         
         <div class="col-3">
-            <img src="images/homedesign1.png" width="250px">
-            <h4>Interior Decor Items</h4>
+            <a href="#interiordecoritems" target="_blank"><img src="images/homedesign1.png" width="250px"></a>
+            <h4>Предмети за интериорен декор</h4>
         </div>
 
         <div class="col-3">
-            <img src="images/toys.png" target="_blank" width="250px">
-            <h4>Toys & Socks</h4>
+            <a href="#toyssocks" target="_blank"><img src="images/toys.png" width="250px"></a>
+            <h4>Плетени играчки и чорапи</h4>
         </div>
         
     </div>
@@ -68,27 +68,31 @@
   </div>
 <!---recent products-->
 <div class="small-container">
-    <h2 class="title">Latest products</h2>
+    <h2 class="title">Най-новите продукти</h2>
     <div class="row">
         <div class="col-4">
             <img src="images/recentproduct.png" width="250px">
-            <h4>Hand-Knitted Socks</h4>
-            <p>$10.00</p>
+            <h4>Ръчно плетени чорапи</h4>
+            <p>18 лв.</p>
+            <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
         </div>
         <div class="col-4">
             <img src="images/recentproduct3-.png" width="250px">
-            <h4>Hand-Knitted Bunny</h4>
-            <p>$15.00</p>
+            <h4>Ръчно плетено зайче</h4>
+            <p>30 лв.</p>
+            <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
         </div>
         <div class="col-4">
             <img src="images/recentproduct2-.png" width="250px">
-            <h4>Beaded Necklace Floral Legends</h4>
-            <p>$110.00</p>
+            <h4>Колие от мъниста "Флорални легенди"</h4>
+            <p>200 лв.</p>
+            <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
         </div>
         <div class="col-4">
             <img src="images/recentproduct-.png" width="250px">
-            <h4>Leather Painting Tiger in the Snow</h4>
-            <p>$130.00</p>
+            <h4>Кожена картина "Тигър в снега"</h4>
+            <p>240 лв.</p>
+            <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
         </div>
     </div>
 
@@ -100,9 +104,10 @@
                 <img src="images/specialoffer-.png" width="250px" class="offer-img">
             </div>
             <div class="col-2">
-                <h1>Get 15% Discount!</h1>
-                <small>Choose two items from <a href="jewellery.html" target="_blank">the Jewellery Section</a> and save 15% on your order!</small>
-                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Buy Now &#8594</a>
+                <h1>Получете 15% отстъпка!</h1>
+                <small>Изберете две ръчно изработени творби от секцията <a href="#jewellery"> "Бижута"</a> и спестете 15% от вашата поръчка!</small>
+                <br>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
         </div>
     </div>
@@ -110,164 +115,189 @@
 
 <!--about-->
 <div class="row">
-    <h1>Welcome to the Gift Season!</h1>
-         <p><b>The Gift Season</b> is the hand-made concept store by <b>Tatiana Bliznakova</b>, the craftswoman with over 20 years of experience and distinguished by numerous awards.</p>
+    <h1 id="aboutgiftseason"><a href="#top">За "Сезонът на подаръците" - GiftSeason</a></h1>
+         <p>Здравейте. Добре дошли в <b>"Сезонът на подаръците" - Gift Season</b>- концептуалният магазин за ръчна изработка на <b>Татяна Близнакова</b>, майсторката с над 20 години опит и многобройни награди.</p>
          <br>
-         <h2>Mission</h2>
+         <h2>Мисията</h2>
          <br>
-         <p class="about1"><img src="images/aboutpage-giftseason.png"  width="250px">I believe in the power of creativity and seek to inspire togetherness, kindness and friendship through creating meaningful and affordable jewellery, toys, and interior decor items. <strong>The prices of unique handmade gifts start just at 5$!</strong>
+         <p class="about1"><a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank"><img src="images/aboutpage-giftseason.png" width="250px"></a>Вярвам в силата на творчеството и се стремя да вдъхновявам сплотеност, доброта и приятелство чрез създаване на смислени и достъпни бижута, играчки и предмети за интериорен декор. 
          <br>
-         <br>Beads, natural stones, leather, metal and wool are the primary materials I use for creating gifts for you. 
+         <br>Мъниста, естествени камъни, кожа, метал и вълна са основните материали, които използвам за създаване на подаръци за вас. 
          <br>
-         <br>So far, handmade gifts by the GiftSeason have brightened lives of people from Ukraine, Bulgaria, Germany, Australia, Canada and the USA. 
+         <br>До момента ръчно изработените подаръци от GiftSeason са обогатили с положителни емоции живота на хора от Украйна, България, Германия, Австралия, Канада и САЩ. 
          <br>
-         <br>Choose the best gift idea from a wide range of handmade <b><a href="#jewellery">Jewellery</a>, <a href="#interiordecoritems">Interior Decor Items</a>, and <a href="#toyssocks">Toys & Socks</a></b>. You can also order original gifts based on your own ideas or some of <b><a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank">my previous works on Instagram</a></b>. <b>Gifts for any mood and any budget.</b></p>                        
+         <br>Изберете най-добрата идея за подарък от широка гама ръчно изработени <b><a href="#jewellery">Бижута</a>, <a href="#interiordecoritems">Предмети за интериорен декор
+        </a>, и <a href="#toyssocks">Плетени играчки и чорапи</a></b>. Можете също така да поръчате оригинални подаръци по ваши собствени идеи или някои от <b><a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank">предишните ми творби в Instagram</a></b>. <b>Gifts for any mood and any budget.</b></p>                        
          <br>
-         <h2>Values</h2>
+         <h2>Ценностите</h2>
          <br>
-         <p class="about"><img src="images/aboutgifts.png" width="250px">I am happy that my creative ideas encourage people to express their feelings in sincere, heartfelt and unique ways. 
+         <p class="about"><img src="images/aboutgifts.png" width="250px">Щастливa съм, че моите творчески идеи насърчават хората да изразяват чувствата си по искрен, сърдечен и уникален начин. 
          <br>
-         <br>This behaviour, in turn, creates more occasions for a happy life.
+         <br>Тези изрази от своя страна създават повече поводи за щастлив живот.
          <br>
-         <br>The most fascinating thing about my activity? The joy of giving happy moments whenever people ask me to create original presents for every occasion. This magical power of my handcrafted items - to create new gift seasons - has inspired the name of my shop Gift Season. 
+         <br>Най-завладяващото нещо в моята дейност? Радостта да дарявам щастливи моменти, когато хората ме помолят да създам оригинални подаръци за специален повод. Тази магическа сила на моите ръчно изработени артикули - да създават нови сезони на подаръци - вдъхнови името на магазина ми "Сезон на подаръците". 
          <br>
-         <br>I strive to positively impact my customers' lives with Authenticity, Innovation, Passion, and Integrity.
+         <br>Стремя се да повлияя положително на живота на клиентите си с автентичност, иновация и креативност.
          <br>
-         <br>Explore ALL THE PRODUCTS of the concept store <b>Gift Season</b>!             
+         <br><strong>Цените на уникалните ръчно изработени подаръци започват от $5!</strong> Разгледайте ВСИЧКИ ПРОДУКТИ на концептуалния магазин <b>„Сезонът на подаръците“ - Gift Season</b> по-долу!             
                      
                    
           <div class="row row-2">
-          <h2 id="jewellery"><a href="#top">Jewellery</a></h2>
+          <h2 id="jewellery"><a href="#top">Бижута</a></h2>
           </div>
           <div class="row">
             <div class="col-4">
                 <img src="images/recentproduct2-.png" width="250px">
-                <h4>Beaded Necklace Carpathian Legends</h4>
-                <p>$110.00</p>
+                <h4>Колие от мъниста "Флорални легенди"</h4>
+                <p>200 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/Three Colours-.png" width="250px">
-                <h4>Beaded Necklace Three Colours</h4>
-                <p>$110.00</p>
+                <h4>Колие с мъниста "Три цвята"</h4>
+                <p>200 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/jewellery.png" width="250px">
-                <h4>Beaded Necklace Wolf Gaze</h4>
-                <p>$110.00</p>
+                <h4>Колие с мъниста "Вълчи поглед"</h4>
+                <p>200 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/Butterfly-.png" width="250px">
-                <h4>Beaded Necklace Butterfly</h4>
-                <p>$100.00</p>
+                <h4>Колие с мъниста "Пеперуда"</h4>
+                <p>200 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/Black & White Fantasy-.png" width="250px">
-                <h4>Beaded Necklace Black & White Fantasy</h4>
-                <p>$105.00</p>
+                <h4>Колие с мъниста "Черно-бяла фантазия"</h4>
+                <p>190 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/Sunny Mood-.png" width="250px">
-                <h4>Beaded Necklace Sunny Mood</h4>
-                <p>$110.00</p>
+                <h4>Колие с мъниста "Слънчево настроение"</h4>
+                <p>200 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/Roses-.png" width="250px">
-                <h4>Beaded Necklace Roses</h4>
-                <p>$110.00</p>
+                <h4>Колие с мъниста "Рози"</h4>
+                <p>200 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/independent-spirit.png" width="250px">
-                <h4>Beaded Necklace Independent Spirit</h4>
-                <p>$110.00</p>
+                <h4>Колие с мъниста "Независим дух"</h4>
+                <p>200 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/musical-soul.png" width="250px">
-                <h4>Beaded Necklace Musical Soul</h4>
-                <p>$110.00</p>
+                <h4>Колие с мъниста "Музикална душа"</h4>
+                <p>200 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/Blue Mood-.png" width="250px">
-                <h4>Beaded Necklace Blue Mood</h4>
-                <p>$105.00</p>
+                <h4>Колие с мъниста "Синьо настроение"</h4>
+                <p>190 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/Amber Light-.png" width="250px">
-                <h4>Metal Necklace Amber Light - Natural Stoun</h4>
-                <p>$130.00</p>
+                <h4>Метално колие "Светлина от кехлибар". Естествен камък</h4>
+                <p>240 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>
             <div class="col-4">
                 <img src="images/Secret Jems-.png" width="250px">
-                <h4>Necklace and Bracelet Set Secret Pearls-RED</h4>
-                <p>$40.00</p>
+                <h4>Комплект колие и гривна "Тайните перли"</h4>
+                <p>73 лв.</p>
+                <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
             </div>        
             </div>
             <div class="row row-2">
-            <h2 id="interiordecoritems"><a href="#top">Interior Decor Items</a></h2>
+            <h2 id="interiordecoritems"><a href="#top">Предмети за интериорен декор</a></h2>
             </div>
                <div class="row">              
                 <div class="col-4">
                     <img src="images/recentproduct-.png" width="250px">
-                    <h4>Leather Scraps Painting Tiger in the Snow</h4>
-                    <p>$130.00</p>
+                    <h4>Кожена картина "Тигър в снега"</h4>
+                    <p>240 лв.</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/Decoupage Wine Bottle Oriental Sunset-.png" width="250px">
-                    <h4>Decoupage Wine Bottle Oriental Sunset</h4>
-                    <p>$30.00</p>
+                    <h4>Декупаж на бутилкa "Ориенталски залез"</h4>
+                    <p>55 лв.</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/homedesign-.png" width="250px">
-                    <h4>Decoupage Wine Bottle Shades of Maroon</h4>
-                    <p>$30.00</p>
+                    <h4>Декупаж на бутилкa "Нюанси на кафявото"</h4>
+                    <p>55 лв.</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/stoneart-.png" width="250px">
-                    <h4>Painted Pebbles</h4>
-                    <p>$5.00/piece</p>
+                    <h4>Декорирани морски камъчета</h4>
+                    <p>10 лв./камък</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
             <div class="row row-2">
-            <h2 id="toyssocks"><a href="#top">Toys & Socks</a></h2>
+            <h2 id="toyssocks"><a href="#top">Плетени играчки и чорапи</a></h2>
             </div>
              <div class="row">
                 <div class="col-4">
                         <img src="images/toys.png" width="250px">
-                        <h4>Hand-Knitted Doll Darina</h4>
-                        <p>$30.00</p>
+                        <h4>Ръчно плетена кукла Дарина</h4>
+                        <p>55 лв.</p>
+                        <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/knitted-lady-cat.png" width="250px">
-                    <h4>Hand-Knitted Lady Cat</h4>
-                    <p>$17.00</p>
+                    <h4>Ръчно плетена дама котка</h4>
+                    <p>30 лв.</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/knitted-tigers.png" width="250px">
-                    <h4>Hand-Knitted Tigers</h4>
-                    <p>$17.00</p>
+                    <h4>Ръчно плетени тигри</h4>
+                    <p>30 лв./играчка</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/recentproduct3-.png" width="250px">
-                    <h4>Hand-Knitted Bunny</h4>
-                    <p>$15.00</p>
+                    <h4>Ръчно плетено зайче</h4>
+                    <p>30 лв.</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/Knitted Ladybugs and Birds-.png" width="250px">
-                    <h4>Hand-Knitted Ladybugs and Birds</h4>
-                    <p>$10.00/item</p>
+                    <h4>Ръчно плетени калинки и птички</h4>
+                    <p>18 лв./играчка</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/Knitted Baby Tigers-2-.png" width="250px">
-                    <h4>Hand-Knitted Baby Tigers</h4>
-                    <p>$10.00/item</p>
+                    <h4>Ръчно плетени бебешки тигри</h4>
+                    <p>18 лв./играчка</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/Knitted Unicorns-.png" width="250px">
-                    <h4>Hand-Knitted Unicorns</h4>
-                    <p>$7.00/item</p>
+                    <h4>Ръчно плетени еднорози</h4>
+                    <p>15 лв./играчка</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
                 <div class="col-4">
                     <img src="images/recentproduct.png" width="500px">
-                    <h4>Hand-Knitted Socks</h4>
-                    <p>$8-15 / a pair</p>
+                    <h4>Ръчно плетени чорапи</h4>
+                    <p>15-27 лв. / чифт</p>
+                    <a href="https://www.instagram.com/tatiana_gifts_season/" class="btn" target="_blank">Купете сега &#8594</a>
                 </div>
          </p>
                  
@@ -278,23 +308,23 @@
     <div class="container">
         <div class="row">
             <div class="footer-col-1">  
-                <p><a href="#jewellery">Jewellery</a></p>              
+                <p><a href="#jewellery">Бижута</a></p>              
             </div>
             <div class="footer-col-2">  
-                <p><a href="#interiordecoritems">Interior Decor Items</a></p>              
+                <p><a href="#interiordecoritems">Предмети за интериорен декор</a></p>              
             </div>
             <div class="footer-col-3">  
-                <p><a href="#toyssocks">Toys & Socks</a></p>              
+                <p><a href="#toyssocks">Плетени играчки и чорапи</a></p>              
             </div>
             <div class="footer-col-4">
-                <p><a href="https://www.instagram.com/tatiana_gifts_season/">Contact & Order</a></p>
+                <p><a href="https://www.instagram.com/tatiana_gifts_season/">Контакти & Поръчки</a></p>
             </div>
             <div class="footer-col-5"> 
-                <p><a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank">Join the GiftSeason on Instagram</a></p>               
+                <p><a href="https://www.instagram.com/tatiana_gifts_season/" target="_blank">Присъединете се към GiftSeason в Instagram</a></p>               
             </div>
         </div>
         <hr>
-        <p class="copyright">Copyright &#169; 2024 - Tatyana Garkavaya and the GiftSeason</p>
+        <p class="copyright">Авторско право &#169; 2024 - <b><a href="https://www.insight-oriented.com/" target="_blank">Tatyana Garkavaya</a></b> и the GiftSeason</p>
     </div>
 </div>
 <!--js for toggle menu-->
